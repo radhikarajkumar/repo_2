@@ -4,4 +4,4 @@ use master;
 --( name varchar(30));
 
 
-select version from dbo.spt_fallback_db ;
+select dbo.spt_fallback_db.version from dbo.spt_fallback_db ;
